@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import SecretCodeCalculator from '../components/secretCodeCalculator'
+import Description from '../components/description'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
 
       <main>
         <SecretCodeCalculator />
+        <Description />
       </main>
 
       <footer>
