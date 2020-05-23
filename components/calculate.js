@@ -3,7 +3,7 @@ let state = []
 // Calculate secret codes from achievement codes
 // @param arr [Array] of achievement codes
 // @output [Array] of secret codes
-export default function calculate(arr) {
+function calculate(arr) {
   state.secretCodes = findAchievementCodes(arr)
   return state.secretCodes
 }
@@ -34,3 +34,5 @@ function findAchievementCodes(arr) {
     });
   return secretModeCodes
 }
+
+module.exports = calculate;

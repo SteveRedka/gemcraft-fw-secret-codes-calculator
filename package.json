@@ -2,7 +2,9 @@
   "name": "gemcraft-fw-secret-codes-calculator",
   "version": "0.1.0",
   "private": true,
+  "author": "Steve Redka",
   "scripts": {
+    "test": "jest",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
@@ -11,5 +13,13 @@
     "next": "9.4.2",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "jest": "^26.0.1",
+    "@testing-library/jest-dom": "^5.1.0",
+    "@testing-library/react": "^9.4.0",
+    "babel-jest": "^25.1.0"
   }
 }

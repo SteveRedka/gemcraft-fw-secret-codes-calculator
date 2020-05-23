@@ -1,4 +1,5 @@
 import calculate from './calculate'
+import styles from './calculator.module.css'
 
 // export default function secretCodeCalculator() {
 // }
