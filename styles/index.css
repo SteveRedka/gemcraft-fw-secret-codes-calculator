@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply p-12;
+  background-image: url(/bg.jpg);
+  background-color: #CCC;
+}
+
+h1 {
+  @apply text-2xl;
+}
+
+a {
+  color: blue;
+}

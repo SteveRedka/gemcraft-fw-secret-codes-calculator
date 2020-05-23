@@ -17,9 +17,11 @@
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
-    "jest": "^26.0.1",
     "@testing-library/jest-dom": "^5.1.0",
     "@testing-library/react": "^9.4.0",
-    "babel-jest": "^25.1.0"
+    "babel-jest": "^25.1.0",
+    "jest": "^26.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.4.6"
   }
 }

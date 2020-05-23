@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Gemcraft Frostborn Wrath secret code generator</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -16,14 +16,14 @@ export default function Home() {
       </main>
 
       <footer>
+        <p className="bg-gray-400 rounded-full p-2">
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://github.com/SteveRedka/gemcraft-fw-secret-codes-calculator"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+        >https://github.com/SteveRedka/gemcraft-fw-secret-codes-calculator
         </a>
+        </p>
       </footer>
 
       <style jsx>{`
